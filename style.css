@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 350px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #24292e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #444c56;
+}
+
+#errorMsg {
+  color: red;
+  margin-top: 10px;
+}
+
+.profile-card {
+  margin-top: 20px;
+  display: none;
+  text-align: center;
+}
+
+.profile-card img {
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.profile-card h2 {
+  margin: 5px 0;
+  color: #24292e;
+}
+
+.profile-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.profile-card a {
+  text-decoration: none;
+  color: #0366d6;
+  font-weight: bold;
+}
